@@ -1,0 +1,13 @@
+spring:
+  profiles:
+    active: dev
+
+---
+spring:
+  profiles: dev
+  application: microservicecloud-config-jxkj-dev
+
+---
+spring:
+  profiles: test
+  application: microservicecloud-config-jxkj-test
